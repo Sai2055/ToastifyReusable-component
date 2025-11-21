@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Notification {
+  width: 280px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  border-radius: 7px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.Notification.success {
+  background-color: green;
+}
+.Notification.error {
+  background-color: red;
+}
+.Notification.warning {
+  background-color: orange;
+}
+.Notification.info {
+  background-color: blue;
+  color: white;
+}
